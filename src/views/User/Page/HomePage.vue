@@ -7,17 +7,16 @@
             layout: "UserView"
         },
         data(){
-            return{
-            settings: {
-                itemsToShow: 1,
-                snapAlign: 'center',
-            },
+            return {
+                settings: {
+                    itemsToShow: 2,
+                    snapAlign: 'start',
+                },
                 breakpoints: {
                     700: {
-                        itemsToShow: 1,
+                        itemsToShow: 2,
                         snapAlign: 'start',
                     },
-
                     1024: {
                         itemsToShow: 6.25,
                         snapAlign: 'start',
@@ -63,6 +62,19 @@
         </div>
     </section>
     <section class=" px-14 py-10 mt-10">
+        <p class=" text-white text-2xl mb-3">Anime Populer</p>
+        <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
+            <slide v-for="slide in 10" :key="slide">
+                <div class=" w-[15rem] h-[8rem] mr-1 bg-red-100 rounded-md">
+                    <p>{{ slide  }}</p>
+                </div>
+            </slide>
+            <template #addons>
+                <Navigation />
+            </template>
+        </carousel>
+    </section>
+    <section class=" px-14 py-10">
         <p class=" text-white text-2xl mb-3">Anime Populer</p>
         <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
             <slide v-for="slide in 10" :key="slide">

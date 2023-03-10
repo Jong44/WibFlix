@@ -21,7 +21,7 @@
                         itemsToShow: 6.25,
                         snapAlign: 'start',
                     },
-                },
+                }   
             }
         },
         components:{
@@ -39,29 +39,31 @@
 </script>
 
 <template>
-    <section class=" banner text-white h-[40rem]">
+    <section class=" banner text-white h-[40rem] w-full z-0">
         <div class=" px-40 pt-[10rem] ">
-            <p class=" font-bold text-5xl">Kimetsu No Yaiba</p>
-            <div class="flex gap-2 mt-6">
-                <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
-                    <p>Action</p>
+            <p class=" font-bold text-5xl text-start">Kimetsu No Yaiba</p>
+                <div class="flex gap-2 mt-6">
+                    <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
+                        <p>Action</p>
+                    </div>
+                    <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
+                        <p>Fantasy</p>
+                    </div>
                 </div>
-                <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
-                    <p>Fantasy</p>
-                </div>
-            </div>
-            <p class=" w-[40rem] text-justify mt-10 text-[14px]">
-                Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
-            </p>
-            <button class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e]">
-                <font-awesome-icon :icon="[ 'fas', 'play' ]" class=" text-sm"/>
-                <p>WATCH NOW</p>
-            </button>
+                <p class=" w-[40rem] text-justify mt-10 text-[14px]">
+                    Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
+                </p>
+                <button class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e]">
+                    <font-awesome-icon :icon="[ 'fas', 'play' ]" class=" text-sm"/>
+                        <p>WATCH NOW</p>
+                </button>
         </div>
         <div class=" bg-gradient-to-b from-[#14141400] to-[#141414] py-14 mt-[4rem]">      
         </div>
     </section>
-    <section class=" px-14 py-10 mt-10">
+
+
+    <section class=" px-14 py-10 max-sm:px-5 max-sm:py-5">
         <p class=" text-white text-2xl mb-3">Anime Populer</p>
         <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
             <slide v-for="slide in 10" :key="slide">
@@ -74,7 +76,7 @@
             </template>
         </carousel>
     </section>
-    <section class=" px-14 py-10">
+    <section class=" px-14 py-10 max-sm:px-5 max-sm:py-5">
         <p class=" text-white text-2xl mb-3">Anime Populer</p>
         <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
             <slide v-for="slide in 10" :key="slide">
@@ -92,7 +94,7 @@
 
 <style>
     .banner{
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.359) 0%,rgba(0, 0, 0, 0.304) 100%),url('../../../assets/banner1.png');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.359) 0%,rgba(0, 0, 0, 0.304) 100%),url('../../../assets/banner1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

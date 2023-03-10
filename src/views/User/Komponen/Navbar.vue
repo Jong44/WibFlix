@@ -1,5 +1,5 @@
 <template>
-    <nav class=" absolute top-0 left-0 right-0 w-full px-5 py-3 flex justify-between items-center">
+    <nav class=" absolute top-0 left-0 right-0 w-full px-5 py-3 flex justify-between items-center z-[1]">
         <div class=" text-white">
             <div class=" font-semibold text-2xl flex items-center gap-10">
                 <div class="title">

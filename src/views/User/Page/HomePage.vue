@@ -50,7 +50,7 @@
                         <p>Fantasy</p>
                     </div>
                 </div>
-                <p class=" w-[40rem] text-justify mt-10 text-[14px] max-sm:w-[20rem]">
+                <p class=" w-[40rem] text-justify mt-10 text-[14px] max-sm:w-[17.5rem]">
                     Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
                 </p>
                 <button class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e]">

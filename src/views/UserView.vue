@@ -11,7 +11,7 @@
 
 <template>
     <Navbar/>
-    <div class=" bg-[#141414]">
+    <div class=" bg-[#141414] overflow-x-hidden">
         <router-view></router-view>
     </div>
 </template>

@@ -9,16 +9,16 @@
         data(){
             return {
                 settings: {
-                    itemsToShow: 2,
+                    itemsToShow: 1.25,
                     snapAlign: 'start',
                 },
                 breakpoints: {
                     700: {
-                        itemsToShow: 2,
+                        itemsToShow: 1.5,
                         snapAlign: 'start',
                     },
                     1024: {
-                        itemsToShow: 6.25,
+                        itemsToShow: 5.25,
                         snapAlign: 'start',
                     },
                 }   
@@ -39,8 +39,8 @@
 </script>
 
 <template>
-    <section class=" banner text-white h-[40rem] w-full z-0">
-        <div class=" px-40 pt-[10rem] ">
+    <section class=" banner text-white h-[40rem] z-0 max-sm:w-auto">
+        <div class=" px-40 pt-[10rem] max-sm:px-10">
             <p class=" font-bold text-5xl text-start">Kimetsu No Yaiba</p>
                 <div class="flex gap-2 mt-6">
                     <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
@@ -50,7 +50,7 @@
                         <p>Fantasy</p>
                     </div>
                 </div>
-                <p class=" w-[40rem] text-justify mt-10 text-[14px]">
+                <p class=" w-[40rem] text-justify mt-10 text-[14px] max-sm:w-[20rem]">
                     Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
                 </p>
                 <button class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e]">
@@ -64,11 +64,45 @@
 
 
     <section class=" px-14 py-10 max-sm:px-5 max-sm:py-5">
-        <p class=" text-white text-2xl mb-3">Anime Populer</p>
-        <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
-            <slide v-for="slide in 10" :key="slide">
-                <div class=" w-[15rem] h-[8rem] mr-1 bg-red-100 rounded-md">
-                    <p>{{ slide  }}</p>
+        <p class=" text-white text-2xl">Anime Populer</p>
+        <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" :transition="1000">
+            <slide v-for="slide in 10" :key="slide" class="py-10 px-1">
+                <div class="card">
+                    <div class="card-movie w-[15rem] h-[8rem] ">
+                        <div class="content">
+    
+                        </div>
+                    </div>
+                    <div class="card-footer bg-[#141414] text-white p-4 text-start">
+                        <div class="flex justify-between">
+                            <div class="text-white flex gap-2">
+                                <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
+                                    <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
+                                </div>
+                                <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
+                                    <font-awesome-icon :icon="[ 'fas', 'add' ]" class="text-[9px]"/>
+                                </div>
+                                <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
+                                    <font-awesome-icon :icon="[ 'fas', 'thumbs-up' ]" class="text-[9px]"/>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
+                                    <font-awesome-icon :icon="[ 'fas', 'chevron-down' ]" class="text-[9px]"/>
+                                </div>
+                            </div>
+                        </div>
+                        <p class=" mt-2 text-xs font-semibold">Hello World</p>
+                        <div class="flex gap-1 text-[8px] font-medium mt-2">
+                            <div class=" border border-white flex justify-center items-center px-1 py-[0.5px] rounded-sm">
+                                <p>13+</p>
+                            </div>
+                            <p>1j 12m</p>
+                            <div class=" border border-white flex justify-center items-center px-1 py-[0.5px] rounded-sm">
+                                <p>HD</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </slide>
             <template #addons>
@@ -76,27 +110,105 @@
             </template>
         </carousel>
     </section>
+
+
+
     <section class=" px-14 py-10 max-sm:px-5 max-sm:py-5">
-        <p class=" text-white text-2xl mb-3">Anime Populer</p>
-        <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" autoplay="3000" :transition="1000">
-            <slide v-for="slide in 10" :key="slide">
-                <div class=" w-[15rem] h-[8rem] mr-1 bg-red-100 rounded-md">
-                    <p>{{ slide  }}</p>
+        <p class=" text-white text-2xl">Anime Populer</p>
+        <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="loop" :transition="1000">
+            <slide v-for="slide in 10" :key="slide" class="slide">
+                <div class=" w-[15rem] h-[8rem] mr-1 bg-black rounded-md">
+                    <div class="flex">
+                        
+                    </div>
                 </div>
             </slide>
             <template #addons>
                 <Navigation />
             </template>
         </carousel>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Ini adalah judul</h2>
+            <p>Ini adalah teks</p>
+	    </div>
     </section>
 
 </template>
 
 <style>
     .banner{
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.359) 0%,rgba(0, 0, 0, 0.304) 100%),url('../../../assets/banner1.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.505) 0%,rgba(0, 0, 0, 0.484) 100%),url('../../../assets/banner1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+
+    .card-movie{
+        border-radius: 6px;
+        background-image: url('../../../assets/bg1.jpg');
+        background-position: center;
+        background-position: no-repeat;
+        background-size: cover;
+    }
+
+    .card-movie::before{ 
+        content: '';
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 6.45rem;
+        position: absolute;
+        background-color: black;
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+        position: absolute;
+        opacity: 0;
+        z-index: 10;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .card{
+        border-radius: 6px;
+        position: relative;
+        transition: transform 600ms;
+        z-index: 0;
+    }
+
+    .card:hover .card-movie:before{
+        opacity: 0.5;
+    }
+
+    .card:hover{
+        transform: scale(1.1);
+        z-index: 1;
+        box-shadow: rgba(0, 0, 0, 0.284) 1px 1px 4px 1px;
+    }
+
+    .card:hover .card-movie{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .card .content, .card .card-footer{
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+    }
+    .card:hover .card-footer{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        opacity: 1;
+    }
+
+    .card:hover .content{
+        opacity: 1;
+    }
+
+
+
+
+
 </style>

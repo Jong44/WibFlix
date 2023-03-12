@@ -22,13 +22,13 @@
                         <p>HOME</p>
                     </RouterLink>
                     <RouterLink to="/a">
-                        <p>SEARCH</p>
-                    </RouterLink>
-                    <RouterLink to="/a">
                         <p>TV SERIES</p>
                     </RouterLink>
                     <RouterLink to="/a">
                         <p>MOVIES</p>
+                    </RouterLink>
+                    <RouterLink to="/a">
+                        <p>SEARCH</p>
                     </RouterLink>
                 </div>
             </div>

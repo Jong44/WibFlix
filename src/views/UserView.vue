@@ -1,10 +1,12 @@
 <script>
     import { RouterLink, RouterView } from 'vue-router'
     import Navbar from './User/Komponen/Navbar.vue'
+    import Footer from './User/Komponen/Footer.vue'
 
     export default{
         components:{
-            Navbar
+            Navbar,
+            Footer
         }
     }
 </script>
@@ -14,6 +16,7 @@
     <div class=" bg-[#141414] overflow-x-hidden">
         <router-view></router-view>
     </div>
+    <Footer/>
 </template>
 
 <style>

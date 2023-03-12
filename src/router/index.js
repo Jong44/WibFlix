@@ -15,9 +15,10 @@ const router = createRouter({
           component: () => import('../views/User/Page/HomePage.vue'),
         },
         {
-          path: '/detail',
+          path: 'detail/:id',
           name: 'detail',
-          component: () => import('../views/User/Page/DetailPage.vue')
+          component: () => import('../views/User/Page/DetailPage.vue'),
+          props: true
         },
       ]
     },

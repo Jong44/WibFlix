@@ -52,7 +52,8 @@
                         snapAlign: 'start',
                     },
                 },
-                dataFilm: jsonFilm
+                dataFilm: jsonFilm,
+                dataFilmById: '',
             }
         },
         components:{
@@ -61,28 +62,28 @@
             Pagination,
             Navigation,
         },
+        created(){
+            this.dataFilmById = jsonFilm.filter(film => { return film.id == this.$route.params.id})
+        }
     }
 
 </script>
 
 
 <template>
-    <section class=" banner text-white h-[40rem] z-0 max-sm:w-auto px-[10rem] py-[15rem] max-sm:px-[1rem] max-sm:py-[7rem]">
+    <section class=" banner text-white h-[40rem] z-0 max-sm:w-auto px-[10rem] py-[15rem] max-sm:px-[1rem] max-sm:py-[7rem]" v-bind:style="{ backgroundImage:'linear-gradient(to bottom, rgba(0, 0, 0, 0.505) 0%,rgba(0, 0, 0, 0.484) 100%),' + 'url(' + dataFilmById[0].cover + ')' }">
         <div class="flex gap-10 max-sm:block">
-            <div class=" poster w-1/2 h-[40rem] max-sm:w-auto max-sm:h-[30rem]">
+            <div class=" poster w-1/2 h-[40rem] max-sm:w-auto max-sm:h-[30rem]" v-bind:style="{ backgroundImage: 'url(' + dataFilmById[0].poster + ')' }">
             </div>
             <div class=" text-white max-sm:mt-10">
-                <p class=" font-semibold text-6xl max-sm:text-3xl">Kimetsu No Yaiba</p>
-                <div class="flex gap-2 mt-10 max-sm:mt-4">
-                    <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
-                        <p>Action</p>
-                    </div>
-                    <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center">
-                        <p>Fantasy</p>
+                <p class=" font-semibold text-6xl max-sm:text-3xl">{{ dataFilmById[0].judul }}</p>
+                <div class="flex gap-2 mt-10 max-sm:mt-4" >
+                    <div class=" bg-[#e50914] px-3 py-1 rounded-full text-sm flex justify-center items-center" v-for="data in dataFilmById[0].genre" :key="data">
+                        <p>{{ data }}</p>
                     </div>
                 </div>
                 <p class=" w-[40rem] text-justify mt-10 text-[14px] max-sm:text-[12px] max-sm:mt-6 max-sm:w-auto">
-                    Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
+                    {{ dataFilmById[0].description }}
                 </p>
                 <div class="flex items-center mt-8">
                     <div class=" px-8 " @click="like = !like">
@@ -97,10 +98,10 @@
                 <div class="bg-[#e50914] p-1 w-10"></div>
                 <div class=" w-[40rem] mt-5">
                     <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" :transition="1000">
-                        <slide v-for="slide in 10" :key="slide">
-                            <div class=" karakter-card w-[12rem] h-[13rem] mr-2 flex flex-1 items-end max-sm:w-[5rem] max-sm:h-[10rem]">
+                        <slide v-for="karakter in dataFilmById[0].karakter" :key="karakter">
+                            <div class=" karakter-card w-[12rem] h-[13rem] mr-2 flex flex-1 items-end max-sm:w-[5rem] max-sm:h-[10rem]"   v-bind:style="{ backgroundImage: 'url(' + karakter.images + ')' }">
                                 <div class=" w-full h-10 bg-[#000000c1] text-start px-3 py-3 text-sm font-medium">
-                                    <p>Kamado Tanjiro</p>
+                                    <p>{{ karakter.nama }}</p>
                                 </div>
                             </div>
                         </slide>
@@ -173,21 +174,18 @@
 
 <style scoped>
     .banner{
-        background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%,rgb(20, 20, 20) 100%),url('../../../assets/banner1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     .poster{
-        background-image: url('../../../assets/poster1.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     .karakter-card{
-        background-image: url('../../../assets/karakter.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

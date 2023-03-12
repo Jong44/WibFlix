@@ -1,5 +1,6 @@
 [
     {
+        "id": 1, 
         "judul":"Naruto",
         "genre":[
             "Fantasy",
@@ -10,6 +11,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F3380580.webp?alt=media&token=57fe206f-d070-4dce-9573-7634a9eeaae0"
     },
     {
+        "id": 2, 
         "judul":"Boruto",
         "genre":[
             "Action",
@@ -19,6 +21,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F8bb367a199636c5d5fece2a67de194ac.jpg?alt=media&token=9eb4da9c-cc14-4d46-b395-71edd5e60a2e"
     },
     {
+        "id": 3, 
         "judul":"Maou Gakuin No Hangyakusha",
         "genre":[
             "Fantasy",
@@ -29,6 +32,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2409654.webp?alt=media&token=e21c2b3d-50ba-4159-8e03-6ef7076127db"
     },
     {
+        "id": 4, 
         "judul":"Kimi No Nawa",
         "genre":[
             "Romance",
@@ -38,6 +42,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2d9dac497d558dc8e7df9c0d57d6e3a0.jpg?alt=media&token=b9b548f0-0373-472d-8884-7720ded4be34"
     },
     {
+        "id": 5, 
         "judul":"Violet Evegarden",
         "genre":[
             "Romance",
@@ -47,6 +52,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F74706-violet-evergarden-the-movie.jpg?alt=media&token=cbac767f-3c2e-4fa0-9d2f-b8f9fffc2915"
     },
     {
+        "id": 6, 
         "judul":"Black Clover",
         "genre":[
             "Fantasy",
@@ -56,6 +62,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F911611.png?alt=media&token=7fd93745-f67a-42a3-8ad4-2bb96d0c635f"
     },
     {
+        "id": 7, 
         "judul":"Tensei Shitara Slime Datta Ken ",
         "genre":[
             "Fantasy",
@@ -66,6 +73,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F978847.jpg?alt=media&token=41acacb5-3642-4f2d-a350-334fa264c73a"
     },
     {
+        "id": 8, 
         "judul":"Shingeki No Kyojin",
         "genre":[
             "Fantasy",
@@ -76,6 +84,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fattack-on-titan-2-cover-uhd-4k-wallpaper-768x432.jpg?alt=media&token=a4ef4795-a406-4ec8-9983-b6b56c74f0c6"
     },
     {
+        "id": 9, 
         "judul":"Ny Hero Academia",
         "genre":[
             "Fantasy",
@@ -86,6 +95,7 @@
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fmha_worldheroesmission_cover.webp?alt=media&token=99838197-f7ad-4451-afb2-8f9202cf81bd"
     },
     {
+        "id": 10, 
         "judul":"Josee The Tiger And The Fish ",
         "genre":[
             "Romance",
@@ -93,5 +103,60 @@
         ],
         "durasi": "1j 38m",
         "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fwp9333929.webp?alt=media&token=e60cb237-4534-4f80-899f-7bd680bdbaca"
+    },
+    {
+        "id": 11, 
+        "judul":"Kimetsu No Yaiba",
+        "genre":[
+            "Fantasy",
+            "Drama",
+            "Action"
+        ],
+        "description": "Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.",
+        "durasi": "2 Season",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fbanner1.jpg?alt=media&token=b45d0f66-7878-4972-875a-df3fa0948f14",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     }
 ]

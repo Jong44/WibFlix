@@ -55,10 +55,10 @@
                 <p class=" w-[40rem] text-justify mt-10 text-[14px] max-sm:w-[17.5rem] max-sm:text-[12px] max-sm:mt-6">
                     Ketika umat manusia diteror oleh iblis jahat yang melahap jiwa manusia. Agar bisa tetap memiliki kekuatan sihir dan melakukan regenerasi, iblis-iblis itu memakan manusia. Iblis hanya bisa dibunuh jika mereka dipenggal dengan senjata yang terbuat dari Sun Steel yang telah disuntik dengan racun yang diekstraksi dari bunga Wisteria, atau terkena sinar matahari.
                 </p>
-                <button class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e]">
+                <RouterLink to="detail/11" class="flex justify-center items-center px-5 py-3 bg-[#e50914] gap-3 rounded-md text-sm font-semibold mt-10 hover:bg-[#9e070e] w-[10rem]">
                     <font-awesome-icon :icon="[ 'fas', 'play' ]" class=" text-sm"/>
-                        <p>WATCH NOW</p>
-                </button>
+                    <p>WATCH NOW</p>
+                </RouterLink>
         </div>
         <div class=" bg-gradient-to-b from-[#14141400] to-[#141414] py-14 mt-[4rem]">      
         </div>

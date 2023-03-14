@@ -8,7 +8,51 @@
             "Action"
         ],
         "durasi": "10 Season",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F3380580.webp?alt=media&token=57fe206f-d070-4dce-9573-7634a9eeaae0"
+        "description": "Perjalanan Naruto Uzumaki dalam menjalani kehidupan sulit sejak masih berusia sangat muda. Semua itu berkaitan dengan sejarah kelam desa yang diserang oleh rubah ekor sembilan. Sebelum kelahirannya, Desa konoha diserang oleh monster rubah ekor sembilan. Untuk mengakhiri amukan rubah ekor sembilan, Hokage ke-4 yang merupakan ayahnya naruto mengorbankan nyawanya untuk menyegel monster tersebut di dalam tubuh naruto yang baru lahir.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F3380580.webp?alt=media&token=57fe206f-d070-4dce-9573-7634a9eeaae0",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 2, 
@@ -18,7 +62,51 @@
             "Fantasy"
         ],
         "durasi": "54 Episode",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F8bb367a199636c5d5fece2a67de194ac.jpg?alt=media&token=9eb4da9c-cc14-4d46-b395-71edd5e60a2e"
+        "description" : "Boruto: Naruto Next Generations mengawali kisah setelah Perang Dunia Shinobi keempat yang dinyatakan telah berakhir dan sukses. Berlatar tempat di Desa Konoha, suasana sekarang jauh lebih aman dan tentram, bahkan sudah mulai beradaptasi dengan kemajuan teknologi modern. Kemakmuran desa tersebut tentunya tidak lepas dari peranan Naruto Uzumaki yaitu Hokage ketujuh desa serta pasukan sekutu Shinobi.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F8bb367a199636c5d5fece2a67de194ac.jpg?alt=media&token=9eb4da9c-cc14-4d46-b395-71edd5e60a2e",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 3, 
@@ -29,7 +117,51 @@
             "Action"
         ],
         "durasi": "2 Season",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2409654.webp?alt=media&token=e21c2b3d-50ba-4159-8e03-6ef7076127db"
+        "description": "Setelah 2000 tahun berlalu, raja iblis yang dulunya kejam direinkarnasi kembali. Namun bakatnya di akademi untuk menjadi kandidat raja iblis dikatakan tidak layak. Dahulu ia mampu menghancurkan manusia, elemental, dan dewa. Setelah melalui pertarungan panjang, Arnos sang raja iblis muak dan lelah dengan hal tersebut. Ia merindukan dunia  yang damai dan memutuskan untuk bereinkarnasi ke masa depan. Namun apa yang menanti setelah ia reikarnasi adalah dunia yang biasa yang penuh dengan kedamaian sehingga keturunannya menjadi terlalu lemah karena melemahnya kekuatan sihir.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2409654.webp?alt=media&token=e21c2b3d-50ba-4159-8e03-6ef7076127db",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 4, 
@@ -39,7 +171,51 @@
             "Drama"
         ],
         "durasi": "1j 52m",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2d9dac497d558dc8e7df9c0d57d6e3a0.jpg?alt=media&token=b9b548f0-0373-472d-8884-7720ded4be34"
+        "description": "Kimi no Na wa’ menceritakan kisah kehidupan dua orang remaja yang bertukar tubuh ketika mereka tidur secara bergantian. Adalah Miyamizu Mitsuha, siswi SMA sekaligus gadis kuil yang tinggal di desa Itomori dekat gunung di pedalaman Gifu yang merasa bosan dengan kehidupan di pedesaan. Sedangkan Tachibana Taki, siswa SMA yang tinggal di Shinjuku pusat kota Tokyo dengan kegiatan bekerja paruh waktu di restoran Italia. Berawal dari sebuah mimpi dimana jiwa keduanya bertukar, Taki dan Mitsuha terkejut menemukan mereka terbangun dalam raga dan tempat yang tak seharusnya. Merasakan mimpinya semakin nyata, keduanya saling bertukar catatan.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F2d9dac497d558dc8e7df9c0d57d6e3a0.jpg?alt=media&token=b9b548f0-0373-472d-8884-7720ded4be34",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 5, 
@@ -49,7 +225,51 @@
             "Drama"
         ],
         "durasi": "2j 20m",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F74706-violet-evergarden-the-movie.jpg?alt=media&token=cbac767f-3c2e-4fa0-9d2f-b8f9fffc2915"
+        "description": "Violet Evergarden yang telah pulang dari perang. Violet merupakan seorang gadis muda yang sebelumnya dikenal sebagai 'senjata' selama di medan perang. Ia memutuskan untuk meninggalkan dunia tersebut demi memulai kehidupan baru. Namun, dalam perjalanan hidupnya pasca perang, Violet masih memiliki sedikit kenangan dan trauma. Sembari menyembuhkan diri dari trauma, Violet dipekerjakan oleh mantan kolonel Hodgins sebagai penulis surat di CH Postal Service.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F74706-violet-evergarden-the-movie.jpg?alt=media&token=cbac767f-3c2e-4fa0-9d2f-b8f9fffc2915",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 6, 
@@ -59,7 +279,51 @@
             "Action"
         ],
         "durasi": "100 Episode",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F911611.png?alt=media&token=7fd93745-f67a-42a3-8ad4-2bb96d0c635f"
+        "description": "Pusat karakter berada pada seorang anak muda bernama Asta. Ia memiliki harapan untuk bisa menjadi penyihir hebat di kerajaan. Sayangnya, ada beberapa kendala yang membuat impiannya itu terhambat. Asta memiliki kelemahan karena tidak bisa menggunakan sihir. Meskipun dirinya tampil tanpa keistimewaan yang dapat dibanggakan, Asta selalu menjadi sosok yang disukai oleh orang-orang di sekitarnya. ",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F911611.png?alt=media&token=7fd93745-f67a-42a3-8ad4-2bb96d0c635f",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 7, 
@@ -70,7 +334,51 @@
             "Action"
         ],
         "durasi": "3 Season",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F978847.jpg?alt=media&token=41acacb5-3642-4f2d-a350-334fa264c73a"
+        "description": "Menceritakan Satoru Mikami seorang pekerja kantoran yang dibunuh oleh kriminal kemudian bereinkarnasi di dunia lain menjadi slime. Si slime tersebut dilahirkan di sebuah gua yang mana dipenuhi oleh monster dan tumbuhan ajaib. Untuk menghabiskan waktu dia menyerap semua rumput dan batu tambang yang ada di dalam gua.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2F978847.jpg?alt=media&token=41acacb5-3642-4f2d-a350-334fa264c73a",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 8, 
@@ -81,7 +389,52 @@
             "Action"
         ],
         "durasi": "5 Season",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fattack-on-titan-2-cover-uhd-4k-wallpaper-768x432.jpg?alt=media&token=a4ef4795-a406-4ec8-9983-b6b56c74f0c6"
+        "description" :"Umat manusia yang dibantai sejak berabad-abad yang lalu hingga hampir punah oleh makhluk mengerikan menyerupai manusia yang disebut Titan. Hal ini memaksa manusia untuk bersembunyi dan diam dalam ketakutan di balik tembok konsentris yang sangat tinggi dan besar. Wujud Titan mirip dengan manusia pada umumnya, hanya saja ukurannya bagai raksasa dan gaya berjalan atau larinya yang tidak normal. Hal lainnya yang membuat Titan benar-benar mengerikan adalah bahwa nafsu mereka terhadap daging manusia tidak muncul dari rasa lapar, tetapi hanya seperti kesenangan membunuh semata atau obsesi yang muncul begitu saja setiap melihat manusia. ",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fattack-on-titan-2-cover-uhd-4k-wallpaper-768x432.jpg?alt=media&token=a4ef4795-a406-4ec8-9983-b6b56c74f0c6",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
+
     },
     {
         "id": 9, 
@@ -92,7 +445,51 @@
             "Action"
         ],
         "durasi": "5 Season",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fmha_worldheroesmission_cover.webp?alt=media&token=99838197-f7ad-4451-afb2-8f9202cf81bd"
+        "description": "My Hero Academia mengawali kisah dari sebuah kehidupan berlatar dunia istimewa. Setiap makhluk di sana memiliki kekuatan super atau Quirk. Dunia tersebut juga dihuni oleh berbagai karakter pahlawan berkekuatan super dan sebagian besar penghuninya bertubuh kuat.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fmha_worldheroesmission_cover.webp?alt=media&token=99838197-f7ad-4451-afb2-8f9202cf81bd",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 10, 
@@ -102,7 +499,51 @@
             "Drama"
         ],
         "durasi": "1j 38m",
-        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fwp9333929.webp?alt=media&token=e60cb237-4534-4f80-899f-7bd680bdbaca"
+        "description": "Tsuneo, seorang mahasiswa biasa dan pegiat menyelam, secara tak terduga bekerja menjadi pengurus seorang gadis muda berkursi roda, demi mengumpulkan uang agar bisa pergi menyelam di Meksiko. Sang gadis, yang menamai dirinya sebagai Josee seperti seorang tokoh dalam buku favoritnya, bersifat pemarah dan banyak menuntut. Namun, seiring Tsuneo mendampingi Josee berinteraksi dengan dunia luar dan belajar memahami perspektif unik Josee, rasa yang ada di antara mereka bertumbuh jadi cinta. Keduanya pun mulai saling mendukung lewat cara-cara yang lebih dari sekadar romansa.",
+        "cover" : "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/populer%2Fwp9333929.webp?alt=media&token=e60cb237-4534-4f80-899f-7bd680bdbaca",
+        "poster": "https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/poster%2Fwp7836444.webp?alt=media&token=3c45e494-db14-4cdf-a16f-d6d1355439f6",
+        "karakter": [
+            {
+                "nama":"Inosuke Hashibira",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F07722caf5ebe001106bcc72ccea5f9b7.jpg?alt=media&token=9f1fcfa5-9318-4852-8ede-95634650007c"
+            },
+            {
+                "nama":"Kanao Tzuyuri",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F2966318526.jpg?alt=media&token=95530124-2aee-4e48-9dc1-0f4d53b58e72"
+            },
+            {
+                "nama":"Giyu Tomioka",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F473771541646215343.webp?alt=media&token=d11939b6-23b5-438a-81f2-2fa67214d38e"
+            },
+            {
+                "nama":"Shinobu Kochou",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F47f916be831f08ce48ecb1b1c584f1c8.jpg?alt=media&token=b16faeba-6d05-454a-b91f-230c4dd38253"
+            },
+            {
+                "nama":"Mitsuri Kanroji",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2F5f7ff64c7a4ae30ac3bddb243b7e9d59.jpg?alt=media&token=d6d113b5-4aa0-4516-ac16-7c12e9230503"
+            },
+            {
+                "nama":"Kamado Tanjiro",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FKamado-Tanjiro_1-660x400.jpg?alt=media&token=a99c52a8-cf1b-460e-94a4-7a102ae88652"
+            },
+            {
+                "nama":"Kyoujuro Rengoku",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FRengoku-Kyojuro-Sample.jpg?alt=media&token=bb75aecb-ff04-4773-bb30-56459d38969a"
+            },
+            {
+                "nama":"Zenitsu Agatsuma",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2FZenitsu.webp?alt=media&token=df3ac435-c076-4618-b494-8ca9f4903c41"
+            },
+            {
+                "nama":"Tengen Uzui",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fartworks-S7Z62eUkpIlFaYQj-EhlUfw-t500x500.jpg?alt=media&token=7a71dc9f-61b2-4244-890e-e39fb4663726"
+            },
+            {
+                "nama":"Kamado Nezuko",
+                "images":"https://firebasestorage.googleapis.com/v0/b/wibflix.appspot.com/o/karakter%2Fkimetsu%20no%20yaiba%2Fnezuko-jadi-manusia-featured-640x360.jpg?alt=media&token=93cfdabe-4906-4a76-adba-b7c670d3f753"
+            }
+        ]
     },
     {
         "id": 11, 

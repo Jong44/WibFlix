@@ -11,7 +11,7 @@
             return{
                 like: false,
                 settings: {
-                    itemsToShow: 2,
+                    itemsToShow: 2.5,
                     snapAlign: 'start',
                 },
                 breakpoints: {
@@ -25,7 +25,7 @@
                     },
                 },
                 settings1: {
-                    itemsToShow: 1.25,
+                    itemsToShow: 1.1,
                     snapAlign: 'start',
                 },
                 breakpoints1: {
@@ -99,7 +99,7 @@
                 <div class=" w-[40rem] mt-5">
                     <carousel :settings="settings" :breakpoints="breakpoints" wrap-around="@loop" :transition="1000">
                         <slide v-for="karakter in dataFilmById[0].karakter" :key="karakter">
-                            <div class=" karakter-card w-[12rem] h-[13rem] mr-2 flex flex-1 items-end max-sm:w-[5rem] max-sm:h-[10rem]"   v-bind:style="{ backgroundImage: 'url(' + karakter.images + ')' }">
+                            <div class=" karakter-card w-[12rem] h-[13rem] mr-2 flex flex-1 items-end max-sm:w-[5rem] max-sm:h-[18rem]"   v-bind:style="{ backgroundImage: 'url(' + karakter.images + ')' }">
                                 <div class=" w-full h-10 bg-[#000000c1] text-start px-3 py-3 text-sm font-medium">
                                     <p>{{ karakter.nama }}</p>
                                 </div>
@@ -112,7 +112,7 @@
     </section>
 
 
-    <section class=" mt-[25rem] px-[10rem] text-white max-sm:mt-[40rem] max-sm:px-[1rem]">
+    <section class=" mt-[25rem] px-[10rem] text-white max-sm:mt-[45rem] max-sm:px-[1rem]">
         <p class=" mt-10 text-2xl font-bold mb-2">Video</p>
         <div class="bg-[#e50914] p-1 w-10 mb-10"></div>
         <div class="">
@@ -120,6 +120,9 @@
                 <slide v-for="slide in 5" :key="slide">
                     <iframe src="https://www.youtube.com/embed/a9tq0aS5Zu8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class=" w-full h-[40rem] z-0 mr-2 max-sm:h-[10rem]"></iframe>
                 </slide>
+                <template #addons>
+                    <Navigation />  
+                </template>
             </carousel>
         </div>
     </section>
@@ -134,9 +137,16 @@
                     <div class="card-footer bg-[#141414] text-white p-4 text-start">
                         <div class="flex justify-between">
                             <div class="text-white flex gap-2">
-                                <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
-                                    <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
-                                </div>
+                                <router-link :to="{
+                                    name: 'detail',
+                                    params: {
+                                        id: slide.id
+                                    }
+                                }">
+                                    <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
+                                        <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
+                                    </div>
+                                </router-link>
                                 <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
                                     <font-awesome-icon :icon="[ 'fas', 'add' ]" class="text-[9px]"/>
                                 </div>

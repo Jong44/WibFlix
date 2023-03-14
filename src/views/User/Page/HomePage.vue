@@ -75,9 +75,16 @@
                     <div class="card-footer bg-[#141414] text-white p-4 text-start">
                         <div class="flex justify-between">
                             <div class="text-white flex gap-2">
-                                <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
-                                    <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
-                                </div>
+                                <router-link :to="{
+                                    name: 'detail',
+                                    params: {
+                                        id: slide.id
+                                    }
+                                }">
+                                    <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
+                                        <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
+                                    </div>
+                                </router-link>
                                 <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
                                     <font-awesome-icon :icon="[ 'fas', 'add' ]" class="text-[9px]"/>
                                 </div>
@@ -124,9 +131,16 @@
                     <div class="card-footer bg-[#141414] text-white p-4 text-start">
                         <div class="flex justify-between">
                             <div class="text-white flex gap-2">
-                                <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
-                                    <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
-                                </div>
+                                <router-link :to="{
+                                    name: 'detail',
+                                    params: {
+                                        id: slide.id
+                                    }
+                                }">
+                                    <div class=" rounded-full px-[9px] py-[6.5px] flex justify-center items-center bg-white text-black">
+                                        <font-awesome-icon :icon="[ 'fas', 'play' ]" class="text-[9px] ml-[1.5px]"/>
+                                    </div>
+                                </router-link>
                                 <div class=" rounded-full px-[8px] py-[7px] flex justify-center items-center border border-white">
                                     <font-awesome-icon :icon="[ 'fas', 'add' ]" class="text-[9px]"/>
                                 </div>

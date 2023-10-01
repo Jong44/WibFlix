@@ -20,6 +20,24 @@ const router = createRouter({
           component: () => import('../views/User/Page/DetailPage.vue'),
           props: true
         },
+        {
+          path: 'series',
+          name: 'series',
+          component: () => import('../views/User/Page/ComingSoon.vue'),
+          props: true
+        },
+        {
+          path: 'movies',
+          name: 'movies',
+          component: () => import('../views/User/Page/ComingSoon.vue'),
+          props: true
+        },
+        {
+          path: 'search',
+          name: 'search',
+          component: () => import('../views/User/Page/ComingSoon.vue'),
+          props: true
+        },
       ]
     },
   ]

@@ -21,13 +21,13 @@
                     <RouterLink to="/">
                         <p>HOME</p>
                     </RouterLink>
-                    <RouterLink to="/a">
+                    <RouterLink to="/series">
                         <p>TV SERIES</p>
                     </RouterLink>
-                    <RouterLink to="/a">
+                    <RouterLink to="/movies">
                         <p>MOVIES</p>
                     </RouterLink>
-                    <RouterLink to="/a">
+                    <RouterLink to="/search">
                         <p>SEARCH</p>
                     </RouterLink>
                 </div>
@@ -38,8 +38,8 @@
         </button>
     </nav>
 
-    <div class=" modal fixed inset-0 bg-[#00000079] flex flex-1 z-10" v-if="modalShow">
-        <div class=" bg-[#141414] m-auto px-10 py-7 w-[30rem] max-sm:w-[20rem]">
+    <div class=" modal fixed inset-0 bg-[#00000079] flex flex-1 z-10" v-show="modalShow" @click=" modalShow = false">
+        <div class=" bg-[#141414] m-auto px-10 py-7 w-[30rem] max-sm:w-[20rem]" @click.stop>
             <p class="text-center text-white text-3xl">
                 <span>Wib</span>
                 <span class=" text-[#e50914]">Flix</span>
